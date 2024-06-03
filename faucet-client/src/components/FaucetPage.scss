@@ -1,5 +1,5 @@
 
-html, body {
+html.powfaucet, html.powfaucet body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -20,6 +20,39 @@ html, body {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   max-width: 100vw;
+}
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+
+.faucet-bootstrap {
+  @import "../../node_modules/bootstrap/scss/type";
+  @import "../../node_modules/bootstrap/scss/images";
+  @import "../../node_modules/bootstrap/scss/containers";
+  @import "../../node_modules/bootstrap/scss/grid";
+  @import "../../node_modules/bootstrap/scss/tables";
+  @import "../../node_modules/bootstrap/scss/forms";
+  @import "../../node_modules/bootstrap/scss/buttons";
+  @import "../../node_modules/bootstrap/scss/transitions";
+  @import "../../node_modules/bootstrap/scss/dropdown";
+  @import "../../node_modules/bootstrap/scss/button-group";
+  @import "../../node_modules/bootstrap/scss/card";
+  @import "../../node_modules/bootstrap/scss/badge";
+  @import "../../node_modules/bootstrap/scss/alert";
+  @import "../../node_modules/bootstrap/scss/tooltip";
+  @import "../../node_modules/bootstrap/scss/popover";
+  @import "../../node_modules/bootstrap/scss/modal";
+  @import "../../node_modules/bootstrap/scss/close";
+  @import "../../node_modules/bootstrap/scss/placeholders";
+  @import "../../node_modules/bootstrap/scss/helpers";
+  @import "../../node_modules/bootstrap/scss/utilities/api";
+  
 }
 
 .faucet-loading .loading-spinner {
